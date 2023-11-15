@@ -1,0 +1,66 @@
+.division-template {
+  display: flex;
+  margin-top: 40px;
+}
+.division-template aside {
+  min-width: 250px;
+  margin-right: 20px;
+}
+.calc-frete {
+  background-color: #fbf9f7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+.calc-frete input {
+  width: 100%;
+  height: 25px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.filter hr {
+  margin: 10px 0;
+}
+.filter h4 {
+  margin-top: 15px;
+}
+.filter p,
+.filter div {
+  margin: 5px 0;
+}
+.config-page {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.grup-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.grup-card div {
+  flex: 1;
+}
+.count-pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.active {
+  background-color: hsla(155, 77%, 43%, 0.6);
+  color: #fff;
+}
+.card-count-pages {
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.card-count-pages:hover {
+  transform: scale(1.1);
+}

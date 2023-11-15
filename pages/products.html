@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- importação externa -->
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-thin-straight/css/uicons-thin-straight.css" />
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css" />
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css" />
-    <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/products.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- css global -->
+    <link rel="stylesheet" href="../styles/global.css" />
+    <!-- css da página -->
+    <link rel="stylesheet" href="../styles/products.css" />
     <title>Produtos</title>
   </head>
   <body>
@@ -96,30 +99,522 @@
     </header>
     <!-- Fim do Cabeçario -->
 
-    <!-- Inicio card -->
-    <div class="container card-container">
-      <div class="card-produto">
-        <!-- Link para página do produto -->
-        <a href="">
-          <div class="card-img">
-            <!-- Local da imagem em src -->
-            <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
-            <div class="card-favorito">
-              <i class="fi fi-rr-heart"></i>
+    <section class="section-from-img"></section>
+    <div class="container">
+      <div class="division-template">
+        <!-- Barra lateral -->
+        <aside>
+          <!-- card Calcular Frete -->
+          <div class="calc-frete">
+            <div class="texto">
+              <h4>Entregar em:</h4>
+            </div>
+            <input type="text" placeholder="Informe o CEP" />
+          </div>
+          <div class="filter">
+            <h4>Categorias:</h4>
+            <hr />
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <p>Categoria 1</p>
+            <h4>Faixa de preço:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="opt1" />
+              <label for="opt1">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt2" />
+              <label for="opt2">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt3" />
+              <label for="opt3">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <div>
+              <input type="checkbox" id="opt4" />
+              <label for="opt4">R$ XX,xx - R$ XX,xx</label>
+            </div>
+            <h4>Marcas:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="marc1" />
+              <label for="marc1">Marca 01</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc2" />
+              <label for="marc2">Marca 02</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc3" />
+              <label for="marc3">Marca 03</label>
+            </div>
+            <div>
+              <input type="checkbox" id="marc4" />
+              <label for="marc4">Marca 04</label>
+            </div>
+            <h4>Idade do Pet:</h4>
+            <hr />
+            <div>
+              <input type="checkbox" id="idade1" />
+              <label for="idade1">Filhote</label>
+            </div>
+            <div>
+              <input type="checkbox" id="idade2" />
+              <label for="idade2">Adulto</label>
+            </div>
+            <div>
+              <input type="checkbox" id="idade3" />
+              <label for="idade3">Idoso</label>
             </div>
           </div>
-          <!-- Titulo do card. pequeno -->
-          <h2 class="card-title">Titulo do produto</h2>
-          <!-- Descrição -->
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
-        </a>
-        <div class="btn-card">
-          <!-- add ao carrinho -->
-          <a href="">Carrinho</a>
-        </div>
+        </aside>
+        <!-- Conteudo -->
+        <main>
+          <p class="router">Home > Categoria > Produtos</p>
+          <h1 class="title-h1">Titulo da Categoria</h1>
+          <p class="p">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of
+            using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+          </p>
+          <div class="config-page">
+            <p>página 1-4</p>
+            <div>
+              <label for="">Ordenar por: </label>
+              <select name="" id="">
+                <option value="">Mais Popular</option>
+                <option value="">Menor Preço</option>
+                <option value="">Maior Preço</option>
+              </select>
+            </div>
+          </div>
+          <div class="grup-card">
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+
+            <!-- Inicio card -->
+            <div class="card-container">
+              <div class="card-produto">
+                <!-- Link para página do produto -->
+                <a href="">
+                  <div class="card-img">
+                    <!-- Local da imagem em src -->
+                    <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
+                    <div class="card-favorito">
+                      <i class="fi fi-rr-heart"></i>
+                    </div>
+                  </div>
+                  <!-- Titulo do card. pequeno -->
+                  <h2 class="card-title">Titulo do produto</h2>
+                  <!-- Descrição -->
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
+                </a>
+                <div class="btn-card">
+                  <!-- add ao carrinho -->
+                  <a href="">Carrinho</a>
+                </div>
+              </div>
+            </div>
+            <!-- Fim Card -->
+          </div>
+          <div class="count-pages">
+            <div class="card-count-pages">
+              <i class="fi fi-rr-arrow-small-left"></i>
+              <span>Anterior</span>
+            </div>
+            <div class="card-count-pages active">
+              <span>1</span>
+            </div>
+            <div class="card-count-pages">
+              <span>2</span>
+            </div>
+            <div class="card-count-pages">
+              <span>3</span>
+            </div>
+            <div class="card-count-pages">
+              <span>4</span>
+            </div>
+            <div class="card-count-pages">
+              <span>Proximo</span>
+              <i class="fi fi-rr-arrow-small-right"></i>
+            </div>
+          </div>
+        </main>
       </div>
     </div>
-    <!-- Fim Card -->
 
     <!-- Inicio Rodapé -->
     <footer>
@@ -134,14 +629,14 @@
           </div>
           <h3>Meios de pagamentos</h3>
           <div class="meio-de-pagamento-icon">
-            <img src="assets/imgCartoes/mastercard-logo.png" alt="" />
-            <img src="assets/imgCartoes/visa-logo.png" alt="" />
-            <img src="assets/imgCartoes/hypercard-logo.png" alt="" />
-            <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
-            <img src="assets/imgCartoes/dinersclub-logo.png" alt="" />
-            <img src="assets/imgCartoes/elo-logo.png" alt="" />
-            <img src="assets/imgCartoes/barcode-icon.png" alt="" />
-            <img src="assets/imgCartoes/pix-transparent.svg" alt="" />
+            <img src="../assets/cartoes/mastercard-logo.png" alt="" />
+            <img src="../assets/cartoes/visa-logo.png" alt="" />
+            <img src="../assets/cartoes/hypercard-logo.png" alt="" />
+            <img src="../assets/cartoes/americanexpress-logo.png" alt="" />
+            <img src="../assets/cartoes/dinersclub-logo.png" alt="" />
+            <img src="../assets/cartoes/elo-logo.png" alt="" />
+            <img src="../assets/cartoes/barcode-icon.png" alt="" />
+            <img src="../assets/cartoes/pix.png" alt="" />
           </div>
         </div>
         <div class="coluna-rodape">

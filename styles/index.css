@@ -39,7 +39,7 @@
 
 .navigation-bar {
   position: absolute;
-  bottom: 370px;
+  bottom: 450px;
   z-index: 1;
   left: 50%;
   transform: translate(-50%);
@@ -108,6 +108,10 @@
 
 .banner2 {
   margin: 40px auto;
+  width: 100%;
+}
+.banner2 img {
+  width: 100%;
 }
 
 /* FIM BANNER 2  */

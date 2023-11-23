@@ -13,18 +13,17 @@
     <!-- css global -->
     <link rel="stylesheet" href="../styles/global.css" />
     <!-- css da página -->
-    <link rel="stylesheet" href="styles/index.css" />
-    <title>Pet Shop</title>
+    <link rel="stylesheet" href="../styles/product.css" />
+    <title>Produtos</title>
   </head>
-
   <body>
     <header class="header">
       <div class="container">
         <div class="row1-container-header">
           <!-- logo -->
           <div class="icon-logo">
-            <a href="index.html">
-              <img src="assets/logo.svg" alt="" />
+            <a href="../index.html">
+              <img src="../assets/logo.svg" alt="" />
             </a>
           </div>
           <!-- barra e busca -->
@@ -44,10 +43,10 @@
               <a href=""><i class="fi fi-rr-headset icon-G"></i></a>
             </li>
             <li>
-              <a href="/pages/favorites.html"><i class="fi fi-rr-heart icon-G"></i></a>
+              <a href="favorites.html"><i class="fi fi-rr-heart icon-G"></i></a>
             </li>
             <li>
-              <a href="/pages/myCart.html"><i class="fi fi-rr-shopping-cart icon-G"></i></a>
+              <a href="myCart.html"><i class="fi fi-rr-shopping-cart icon-G"></i></a>
             </li>
           </ul>
         </div>
@@ -117,81 +116,116 @@
     </header>
     <!-- Fim do Cabeçario -->
 
-    <!--INICIO SLIDER  -->
-    <div class="container">
-      <div class="content">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1" checked />
-          <input type="radio" name="radio-btn" id="radio2" />
-          <input type="radio" name="radio-btn" id="radio3" />
-          <input type="radio" name="radio-btn" id="radio4" />
-
-          <div class="slide first">
-            <img src="assets/carrocel - banners/slider1.png" alt="" />
+    <!-- Conteudo -->
+    <main class="container">
+      <p class="router-top"><a href="../index.html">Home</a> > Categoria > Produto</p>
+      <div class="container-top-info">
+        <div class="container-img">
+          <div class="img-big">
+            <!-- img principal -->
+            <img src="../assets/temp/img01.jpg" alt="product 01" />
           </div>
-
-          <div class="slide">
-            <img src="assets/carrocel - banners/slider2.png" alt="" />
-          </div>
-
-          <div class="slide">
-            <img src="assets/carrocel - banners/slider3.png" alt="" />
-          </div>
-
-          <div class="slide">
-            <img src="assets/carrocel - banners/slider4.png" alt="" />
+          <div class="imgs-small">
+            <!-- Img pequenas -->
+            <img src="../assets/temp/img02.jpg" alt="product 02" />
+            <img src="../assets/temp/img03.jpg" alt="product 03" />
+            <img src="../assets/temp/img04.jpg" alt="product 04" />
+            <img src="../assets/temp/img05.jpg" alt="product 05" />
+            <img src="../assets/temp/img06.jpg" alt="product 06" />
           </div>
         </div>
-
-        <div class="navigation-bar">
-          <label class="manual-btn" for="radio1"></label>
-          <label class="manual-btn" for="radio2"></label>
-          <label class="manual-btn" for="radio3"></label>
-          <label class="manual-btn" for="radio4"></label>
-        </div>
-      </div>
-      <!-- FIM  SLIDER  -->
-
-      <!--INICIO MENU TERCEIZAADOS -->
-      <div class="menu-terc">
-        <div>
-          <a href="https://petanjo.com/hospedagem-para-cao/jatiuca--maceio--al" target="_blank">
-            <img src="assets/Menu - Terceirizados/hospedagem.png" alt="" />
-            <p class="title-mini-cards">HOSPEDAGEM</p>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.adotepetz.com.br/" target="_blank">
-            <img src="assets/Menu - Terceirizados/adocao.png" alt="" />
-            <p class="title-mini-cards">ADOÇÃO</p>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="assets/Menu - Terceirizados/plano - saude.png" alt="" />
-            <p class="title-mini-cards">PLANO DE SAUDE</p>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="assets/Menu - Terceirizados/banho - tosa.png" alt="" />
-            <p class="title-mini-cards">BANHO E TOSA</p>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="assets/Menu - Terceirizados/emergencia.png" alt="" />
-            <p class="title-mini-cards">EMERGENCIA</p>
-          </a>
+        <div class="container-text">
+          <h1 class="title-product">Ração Golden Special para Cães Adultos Sabor Frango e Carne</h1>
+          <div class="hiperlinks">
+            <div>
+              <a href="">Ver descrição completa</a> | <a href="">Marca</a> |
+              <a href="">Raça</a>
+            </div>
+            <p>Em estoque</p>
+          </div>
+          <hr />
+          <h4>Selecione o tamanho:</h4>
+          <select>
+            <option value="15">15KG</option>
+            <option value="30">30KG</option>
+          </select>
+          <h4>Selecione o sabor:</h4>
+          <select>
+            <option value="carne">Carne</option>
+            <option value="frango">Frango</option>
+          </select>
+          <div class="value-pay">
+            <p class="value">R$ 149,99</p>
+            <p>3x de R$ 50,00 sem juros no cartão</p>
+          </div>
+          <div class="grup-btn">
+            <button class="btn-primary">Comprar</button>
+            <button class="btn-secondary">Adicionar ao Carrinho</button>
+          </div>
+          <div class="freight">
+            <p class="freight-title">Calcule o frete</p>
+            <div class="more-info">
+              <p>receba em casa ou grátis na loja</p>
+              <!-- Correios CEP -->
+              <a href="">Não sei o CEP</a>
+            </div>
+            <div class="input-cep">
+              <input type="text" maxlength="9" placeholder="Digite o CEP" />
+              <button>Calcular</button>
+            </div>
+          </div>
         </div>
       </div>
-      <!--FIM MENU TERCEIZAADOS -->
 
-      <!--INICIO OFERTAS IMPERDIVEIS -->
-      <div>
-        <!-- Titulo -->
-        <h2 class="titulo-ofertas">OFERTAS IMPERDÍVEIS</h2>
-        <div class="containercards">
+      <div class="description-product">
+        <h2 class="title-h2">Descrição</h2>
+        <ul>
+          <li>- Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+          <li>- Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+          <li>- Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+          <li>- Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+          <li>- Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+          <li>- Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+        </ul>
+      </div>
+
+      <div class="specifications">
+        <h2 class="title-h2">Especificações</h2>
+        <table>
+          <tr>
+            <td>Especificação 01</td>
+            <td>Especificação 01</td>
+          </tr>
+          <tr>
+            <td>Especificação 02</td>
+            <td>Especificação 02</td>
+          </tr>
+          <tr>
+            <td>Especificação 03</td>
+            <td>Especificação 03</td>
+          </tr>
+          <tr>
+            <td>Especificação 04</td>
+            <td>Especificação 04</td>
+          </tr>
+          <tr>
+            <td>Especificação 05</td>
+            <td>Especificação 05</td>
+          </tr>
+          <tr>
+            <td>Especificação 06</td>
+            <td>Especificação 06</td>
+          </tr>
+          <tr>
+            <td>Especificação 07</td>
+            <td>Especificação 07</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="products-similar">
+        <h2 class="title-h2">Produtos Semelhantes</h2>
+        <div class="products-scroll-horizontal">
           <!-- Inicio card -->
           <div class="card-container">
             <div class="card-produto">
@@ -199,7 +233,7 @@
               <a href="">
                 <div class="card-img">
                   <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
+                  <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
                   <div class="card-favorito">
                     <i class="fi fi-rr-heart"></i>
                   </div>
@@ -216,7 +250,6 @@
             </div>
           </div>
           <!-- Fim Card -->
-
           <!-- Inicio card -->
           <div class="card-container">
             <div class="card-produto">
@@ -224,7 +257,7 @@
               <a href="">
                 <div class="card-img">
                   <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
+                  <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
                   <div class="card-favorito">
                     <i class="fi fi-rr-heart"></i>
                   </div>
@@ -241,7 +274,6 @@
             </div>
           </div>
           <!-- Fim Card -->
-
           <!-- Inicio card -->
           <div class="card-container">
             <div class="card-produto">
@@ -249,7 +281,7 @@
               <a href="">
                 <div class="card-img">
                   <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
+                  <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
                   <div class="card-favorito">
                     <i class="fi fi-rr-heart"></i>
                   </div>
@@ -266,7 +298,6 @@
             </div>
           </div>
           <!-- Fim Card -->
-
           <!-- Inicio card -->
           <div class="card-container">
             <div class="card-produto">
@@ -274,7 +305,7 @@
               <a href="">
                 <div class="card-img">
                   <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
+                  <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
                   <div class="card-favorito">
                     <i class="fi fi-rr-heart"></i>
                   </div>
@@ -291,7 +322,6 @@
             </div>
           </div>
           <!-- Fim Card -->
-
           <!-- Inicio card -->
           <div class="card-container">
             <div class="card-produto">
@@ -299,7 +329,7 @@
               <a href="">
                 <div class="card-img">
                   <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
+                  <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
                   <div class="card-favorito">
                     <i class="fi fi-rr-heart"></i>
                   </div>
@@ -316,7 +346,6 @@
             </div>
           </div>
           <!-- Fim Card -->
-
           <!-- Inicio card -->
           <div class="card-container">
             <div class="card-produto">
@@ -324,57 +353,7 @@
               <a href="">
                 <div class="card-img">
                   <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
-                  <div class="card-favorito">
-                    <i class="fi fi-rr-heart"></i>
-                  </div>
-                </div>
-                <!-- Titulo do card. pequeno -->
-                <h2 class="card-title">Titulo do produto</h2>
-                <!-- Descrição -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
-              </a>
-              <div class="btn-card">
-                <!-- add ao carrinho -->
-                <a href="">Carrinho</a>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Card -->
-
-          <!-- Inicio card -->
-          <div class="card-container">
-            <div class="card-produto">
-              <!-- Link para página do produto -->
-              <a href="">
-                <div class="card-img">
-                  <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
-                  <div class="card-favorito">
-                    <i class="fi fi-rr-heart"></i>
-                  </div>
-                </div>
-                <!-- Titulo do card. pequeno -->
-                <h2 class="card-title">Titulo do produto</h2>
-                <!-- Descrição -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reprehenderit adipisci quas</p>
-              </a>
-              <div class="btn-card">
-                <!-- add ao carrinho -->
-                <a href="">Carrinho</a>
-              </div>
-            </div>
-          </div>
-          <!-- Fim Card -->
-
-          <!-- Inicio card -->
-          <div class="card-container">
-            <div class="card-produto">
-              <!-- Link para página do produto -->
-              <a href="">
-                <div class="card-img">
-                  <!-- Local da imagem em src -->
-                  <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
+                  <img src="assets/imgCartoes/americanexpress-logo.png" alt="" />
                   <div class="card-favorito">
                     <i class="fi fi-rr-heart"></i>
                   </div>
@@ -393,96 +372,7 @@
           <!-- Fim Card -->
         </div>
       </div>
-      <!--FIM OFERTAS IMPERDIVEIS -->
-
-      <!--INICIO DESTAQUES - CACHORRO  -->
-      <div class="destaques">
-        <h2 class="title-destaques">DESTAQUES PARA CACHORROS</h2>
-        <div class="itensdest">
-          <div>
-            <a href="#">
-              <img src="assets/destaque - cachorros/recursos/racao  - nutrilus.png" alt="" />
-              <p class="title-mini-cards">Rações</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="assets/destaque - cachorros/recursos/caixa - transporte.png" alt="" />
-              <p class="title-mini-cards">Transporte</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="assets/destaque - cachorros/recursos/petisco.png" alt="" />
-              <p class="title-mini-cards">Petiscos</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="assets/destaque - cachorros/recursos/medicamento.png" alt="" />
-              <p class="title-mini-cards">Medicamentos</p>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!--FIM DESTAQUES- CACHORRO  -->
-
-      <!--INICIO DESTAQUES - GATOS  -->
-
-      <div>
-        <h2 class="title-destaques">DESTAQUES PARA GATOS</h2>
-        <div class="itensdest">
-          <div>
-            <a href="#">
-              <img src="assets/destaque - gatos/recursos/raçao-whiskas.png" alt="" />
-              <p class="title-mini-cards">Rações</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="assets/destaque - gatos/recursos/arranhador.png" alt="" />
-              <p class="title-mini-cards">Arranhadores</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="assets/destaque - gatos/recursos/areia - higienica.png" alt="" />
-              <p class="title-mini-cards">Areias Higiênicas</p>
-            </a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="assets/destaque - gatos/recursos/medicamento.png" alt="" />
-              <p class="title-mini-cards">Medicamentos</p>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!--FIM DESTAQUES- GATOS  -->
-
-      <!--INICIO BANNER 2  -->
-      <div class="banner2">
-        <img src="assets/carrocel - banners/BANNER 2.png" alt="" />
-      </div>
-
-      <!-- FINAL  BANNER 2  -->
-
-      <!-- INICIO PRINCIPAIS MARCAS -->
-
-      <div id="marcas">
-        <h2>PRINCIPAIS MARCAS</h2>
-        <div class="conteudomarcas">
-          <img src="assets/marcas/whiskas.png" alt="whiskas" />
-          <img src="assets/marcas/pedigree.png" alt="pedigree" />
-          <img src="assets/marcas/magnus.png" alt="magnus" />
-          <img src="assets/marcas/granplus.png" alt="granplus" />
-          <img src="assets/marcas/kelco.png" alt="kelco" />
-          <img src="assets/marcas/zeedog.png" alt="zeedog" />
-        </div>
-      </div>
-    </div>
-    <!--  FIM PRINCIPAIS MARCAS -->
+    </main>
 
     <!-- Inicio Rodapé -->
     <footer>
@@ -529,6 +419,5 @@
       </div>
     </footer>
     <!-- Fim Rodapé -->
-    <script src="./Script.js"></script>
   </body>
 </html>

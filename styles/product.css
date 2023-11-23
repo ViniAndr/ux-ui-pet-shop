@@ -1,0 +1,140 @@
+.container-top-info {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  gap: 50px;
+}
+.imgs-small {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+.imgs-small img {
+  height: 80px;
+  cursor: pointer;
+}
+
+.container-top-info div:last-child {
+  width: 450px;
+}
+.hiperlinks {
+  display: flex;
+  justify-content: space-between;
+}
+.hiperlinks a,
+.hiperlinks p {
+  font-size: 0.6em;
+}
+.hiperlinks div {
+  opacity: 0.8;
+}
+.hiperlinks p {
+  font-weight: bolder;
+}
+hr {
+  margin: 8px 0;
+}
+.container-text select {
+  width: 100%;
+  height: 35px;
+  padding-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.value-pay {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.value-pay .value {
+  font-size: 2em;
+  font-weight: bolder;
+}
+.grup-btn button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 1.3em;
+  border-radius: 5px;
+  border: none;
+}
+.btn-primary {
+  background-color: #19c37d;
+  border: none;
+  color: #fff;
+  margin: 15px 0;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #16ac6d;
+}
+.btn-secondary {
+  outline: 1px solid #000;
+  background-color: transparent;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+.btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.freight-title {
+  font-size: 1.3em;
+}
+.more-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+.more-info a {
+  font-weight: bolder;
+  color: black;
+}
+.input-cep {
+  border: 1px solid #000;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.input-cep input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.input-cep button {
+  margin-right: 5px;
+  padding: 7px;
+  background-color: #19c37d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+.input-cep button:hover {
+  background-color: #16ac6d;
+}
+
+.description-product li {
+  line-height: 1.5;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.specifications table tr {
+  height: 40px;
+}
+.specifications table tr td:not(:last-child) {
+  font-weight: bolder;
+  padding: 0 5px;
+}
+.specifications table tr:nth-child(odd) {
+  background-color: #d9d9d9;
+}

@@ -6,14 +6,24 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
+.router-top {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 .router {
   margin-bottom: 10px;
 }
 .title-h1 {
   margin-bottom: 10px;
 }
+.title-h2 {
+  margin: 20px 0;
+}
 .p {
   line-height: 1.4;
+}
+button {
+  cursor: pointer;
 }
 i {
   display: block;
@@ -31,6 +41,11 @@ i {
   max-width: 80%;
   width: 100%;
   margin: auto;
+}
+.config-page {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Cabeçario Inicio do estilo */
@@ -135,6 +150,9 @@ i {
   color: #fff;
   padding: 5px 0;
   display: block;
+}
+.asider-active {
+  background-color: #16ac6d !important;
 }
 .grup-btn-header-nav ul a:hover {
   color: #c3c3c3;
@@ -263,4 +281,10 @@ footer {
 .meio-de-pagamento-icon img {
   margin-top: 15px;
   height: 25px;
+}
+.products-scroll-horizontal {
+  display: flex;
+  padding: 0 10px 10px 10px;
+  gap: 25px;
+  overflow-x: scroll;
 }

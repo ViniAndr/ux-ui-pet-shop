@@ -1,0 +1,132 @@
+/* INICIO MENU TERCEIRIZADOS*/
+.menu-terc {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 80px;
+}
+/* FIM MENU TERCEIRIZADOS*/
+
+/* INICIO - OFERTAS */
+.titulo-ofertas {
+  margin: 40px auto;
+}
+/* Estilos para o container principal dos cards */
+.containercards {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 20px;
+  overflow-x: scroll;
+}
+/* FIM - OFERTAS */
+
+/*  INICIO SLIDER */
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+
+.slide {
+  width: 25%;
+  transition: 0.8s;
+}
+
+.navigation-bar {
+  position: absolute;
+  bottom: 380px;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.manual-btn {
+  border: 2px solid #c7bfbf;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manual-btn:hover {
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -75%;
+}
+
+/* FIM SLIDER */
+
+/* INICIO DESTAQUES */
+.title-destaques {
+  margin: 50px 0;
+}
+.itensdest {
+  display: flex;
+  justify-content: space-around;
+}
+.itensdest img {
+  height: 179px;
+  right: 179px;
+}
+.title-mini-cards {
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+/* FIM DESTAQUES */
+
+/* INICIO BANNER 2  */
+
+.banner2 {
+  margin: 40px auto;
+}
+
+/* FIM BANNER 2  */
+
+/* INICIO MARCAS  */
+
+#marcas h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.conteudomarcas {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.conteudomarcas img {
+  width: 160px;
+}
+
+/* FIM MARCAS  */

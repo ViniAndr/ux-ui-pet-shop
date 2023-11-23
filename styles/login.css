@@ -1,0 +1,128 @@
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.login,
+.register {
+  width: 350px;
+}
+.login-register {
+  display: flex;
+  gap: 50px;
+}
+.btn-rede-social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-rede-social:not(:first-child) {
+  margin-top: 10px;
+}
+.btn-rede-social img {
+  width: 30px;
+}
+fieldset {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+}
+fieldset legend {
+  padding: 5px 10px;
+}
+.input-icon {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  gap: 10px;
+  height: 35px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.input-icon i {
+  color: rgba(0, 0, 0, 0.4);
+}
+.input-icon input {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+.password {
+  text-align: center;
+}
+.password span {
+  color: #19c37d;
+  cursor: pointer;
+}
+.password p {
+  font-size: 0.9em;
+}
+.btn-login {
+  display: inline-block;
+  color: #fff;
+  background-color: #19c37d;
+  margin: 10px 0;
+  padding: 8px 15px;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.btn-login:hover {
+  background-color: #16ac6d;
+}
+.vertical-line {
+  border-left: 1px solid rgba(0, 0, 0, 0.2); /* ou border-right, dependendo do lado desejado */
+}
+.title-basic {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.selects select {
+  padding: 5px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.input-genero {
+  margin: 10px 0;
+}
+.container-radio {
+  display: flex;
+}
+.container-radio div {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  height: 25px;
+  width: 80px;
+  padding: 5px;
+}
+.container-radio div label {
+  cursor: pointer;
+  width: 100%;
+}
+.container-radio div input {
+  cursor: pointer;
+}
+.container-radio div:not(:first-child) {
+  margin-left: 10px;
+}
+.description-basic {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  max-width: 350px;
+  font-size: 0.7em;
+}

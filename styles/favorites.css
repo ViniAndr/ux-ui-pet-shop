@@ -1,0 +1,45 @@
+.division-template {
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+}
+aside {
+  width: 300px;
+}
+.btn-aside {
+  display: block;
+  cursor: pointer;
+  padding: 20px;
+  margin: auto;
+  background-color: #19c37d;
+  color: #fff;
+  font-weight: bolder;
+  border-bottom: 1px solid #fff;
+  transition: background-color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+}
+.btn-aside:hover {
+  background-color: #16ac6d;
+  font-size: 1.1em;
+}
+.btn-aside:first-child {
+  border-radius: 5px 5px 0 0;
+}
+.btn-aside:last-child {
+  border-radius: 0 0 5px 5px;
+}
+main {
+  width: 100%;
+}
+.texts-top {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.grup-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.grup-card div {
+  flex: 1;
+}

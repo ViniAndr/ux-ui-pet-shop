@@ -39,7 +39,7 @@
 
 .navigation-bar {
   position: absolute;
-  bottom: 380px;
+  bottom: 370px;
   z-index: 1;
   left: 50%;
   transform: translate(-50%);
